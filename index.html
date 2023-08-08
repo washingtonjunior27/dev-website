@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevStartup</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- SCRIPT -->
+    <script src="script.js" defer></script>
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- SWIPPER JS -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="img/logo.png" alt="Logo">
+            <h1>Dev<span>Startup</span></h1>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-list__items">
+                    <a href="#" class="links">Home</a>
+                </li>
+                <li class="navbar-list__items">
+                    <a href="#about" class="links">About</a>
+                </li>
+                <li class="navbar-list__items">
+                    <a href="#courses" class="links">Courses</a>
+                </li>
+                <li class="navbar-list__items">
+                    <a href="#testimonials" class="links">Testimonials</a>
+                </li>
+                <li class="navbar-list__items">
+                    <a href="#promotions" class="links">Promotions</a>
+                </li>
+            </ul>
+            <div class="toggles">
+                <div class="dark-mode">
+                    <i class='bx bx-toggle-left' id="dm-left"></i>
+                    <i class='bx bxs-toggle-right' id="dm-right"></i>
+                </div>
+                <div class="toggle-menu">
+                    <i class='bx bx-menu' id="toggle-menu-icon"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h3>All the programming languages you want here</h3>
+            <h1 class="title hero-title">BECAME A FULLSTACK <br> DEVELOPER FAST</h1>
+            <p class="text">Turn your ideas into successful digital solutions <br>
+             with our highly qualified and experienced <br>
+             programming team.</p>
+            <button>See More</button>
+            <div class="hero-content__socials">
+                <h3>Follow Us in our Socials</h3>
+                <div class="socials">
+                    <i class='bx bxl-twitter socials-icon'></i>
+                    <i class='bx bxl-instagram socials-icon'></i>
+                    <i class='bx bxl-linkedin-square socials-icon' ></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="img/desenvolvendo.svg" alt="Developing">
+        </div>
+    </main>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/team.svg" alt="Team Work">
+        </div>
+        <div class="about-content">
+            <h1 class="title">About us</h1>
+            <p class="text">At DevStartup, we are a team of highly skilled and experienced programmers who are passionate about turning your ideas into successful digital solutions. With a deep understanding of various programming languages and technologies, we can handle even the most complex projects with ease. Our commitment to excellence and customer satisfaction is reflected in everything we do, from the initial consultation to the final product delivery. Partner with us today and experience the difference that comes with working with a truly dedicated programming team."</p>
+        </div>
+    </section>
+
+    <section class="courses" id="courses"> 
+        <h1 class="title">Our Courses</h1>
+        <div class="slide-container swiper">
+            <div class="slide-contents">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="swiper-slide card">
+                        <div class="card-title">
+                            <h1>React JS</h1>
+                        </div>
+                        <div class="card-img">
+                            <i class='bx bxl-react img' id="react"></i>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-content__stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <h2>$49/month</h2>
+                            <button class="btn">Start Now</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                            <div class="card-title">
+                                <h1>Node JS</h1>
+                            </div>
+                            <div class="card-img">
+                                <i class='bx bxl-nodejs img' id="node"></i>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content__stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <h2>$49/month</h2>
+                                <button class="btn">Start Now</button>
+                            </div>
+                    </div>
+                    <div class="swiper-slide card">
+                            <div class="card-title">
+                                <h1>PHP</h1>
+                            </div>
+                            <div class="card-img">
+                                <i class='bx bxl-php img' id="php"></i>    
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content__stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <h2>$49/month</h2>
+                                <button class="btn">Start Now</button>
+                            </div>
+                    </div>
+                    <div class="swiper-slide card">
+                            <div class="card-title">
+                                <h1>Angular</h1>
+                            </div>
+                            <div class="card-img">
+                                <i class='bx bxl-angular img' id="angular"></i>    
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content__stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <h2>$49/month</h2>
+                                <button class="btn">Start Now</button>
+                            </div>
+                    </div>
+                    <div class="swiper-slide card">
+                            <div class="card-title">
+                                <h1>Vue</h1>
+                            </div>
+                            <div class="card-img">
+                                <i class='bx bxl-vuejs img' id="vue"></i>    
+                            </div>
+                            <div class="card-content">
+                                <div class="card-content__stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <h2>$49/month</h2>
+                                <button class="btn">Start Now</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-button-prev swipper-button"></div>
+            <div class="swiper-button-next swipper-button"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h1 class="title">
+            Testimonials
+        </h1>
+        <div class="cards">
+            <div class="card-testi">
+                <i class='bx bxs-quote-right'></i>
+                <p>"I loved the React course. Instructors were excellent and highly accessible. Highly recommend!"</p>
+                <div class="user">
+                    <img src="img/Ellipse 5.png" alt="user1">
+                    <h2>John Doe</h2>
+                </div>
+            </div>
+            <div class="card-testi">
+                <i class='bx bxs-quote-right'></i>
+                <p>"The course I took was excellent! The instructor was knowledgeable and attentive. Highly recommend!"</p>
+                <div class="user">
+                    <img src="img/Ellipse 5 (1).png" alt="user2">
+                    <h2>Ashley Mor</h2>
+                </div>
+            </div>
+            <div class="card-testi">
+                <i class='bx bxs-quote-right'></i>
+                <p>"The team delivered a high-quality custom application within the deadline. Highly recommend for custom software solutions."</p>
+                <div class="user">
+                    <img src="img/Ellipse 5 (2).png" alt="user3">
+                    <h2>Paula Rossi</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newslatter">
+        <h1 class="title">
+            Newslatter
+        </h1>
+        <p class="newslatter-parag">Subscribe to our newsletter to receive exclusive updates on our services, as well as valuable tips and special discounts!</p>
+        <div class="newslatter-form">
+            <input type="email" class="newslatter-input" placeholder="Inform your mail">
+            <button class="btn">Subscribe</button>
+        </div>
+    </section>
+
+    <section class="promotions" id="promotions">
+        <h1 class="title">
+            Promotions
+        </h1>
+        <div class="cards prom">
+            <div class="card-prom">
+                <h2>Take your coding to new heights</h2>
+                <div class="card-prom__type">
+                    <h1>Silver</h1>
+                    <h1>$450</h1>
+                </div>
+                <button class="btn-prom silver">Sign Now</button>
+                <hr class="hr-personalized">
+                <div class="garantias-cont">
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>6 Month Acess</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>Forum Acess</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>2 Certificates</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>Code Reviews</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-prom">
+                <h2>Take your skills to the next level</h2>
+                <div class="card-prom__type">
+                    <h1>Gold</h1>
+                    <h1>$600</h1>
+                </div>
+                <button class="btn-prom silver">Sign Now</button>
+                <hr class="hr-personalized">
+                <div class="garantias-cont">
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>1 Year Acess</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>Forum Acess</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>All Certificates</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>Code Reviews</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>Exclusive Mentoring</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-prom">
+                <h2>IDEAL FOR BEGINNERS</h2>
+                <div class="card-prom__type">
+                    <h1>Bronze</h1>
+                    <h1>$350</h1>
+                </div>
+                <button class="btn-prom silver">Sign Now</button>
+                <hr class="hr-personalized">
+                <div class="garantias-cont">
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>3 Month Acess</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>Forum Acess</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                    <div class="garantias">
+                        <div class="garantias__1">
+                            <i class='bx bx-check'></i>
+                            <h3>1 Certificate</h3>
+                        </div>
+                        <i class='bx bx-info-circle'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-nav">
+            <div class="header-logo">
+                <img src="img/logo.png" alt="Logo">
+                <h1>Dev<span>Startup</span></h1>
+            </div>
+            <nav class="navigate">
+                <ul>
+                    <li><a href="#">Privacity</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">TECHNOLOGIES</a></li>
+                    <li><a href="#">Exercises</a></li>
+                    <li><a href="#">Languages</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#promotions">Promotions</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr class="hr-personalized hr-footer">
+        <div class="footer-socials">
+            <h2>Follow Us in our Socials</h2>
+            <div class="socials">
+                <i class='bx bxl-twitter socials-icon'></i>
+                <i class='bx bxl-instagram socials-icon'></i>
+                <i class='bx bxl-linkedin-square socials-icon' ></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
